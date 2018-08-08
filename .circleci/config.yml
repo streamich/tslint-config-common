@@ -1,0 +1,55 @@
+version: 2
+
+refs:
+  container: &container
+    docker:
+      - image: node:8.11
+    working_directory: ~/repo
+
+jobs:
+  all:
+    <<: *container
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: yarn install
+      - run:
+          name: Test
+          command: yarn test
+      - run:
+          name: Lint
+          command: yarn lint
+
+  master:
+    <<: *container
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: yarn install
+      - run:
+          name: Test
+          command: yarn test
+      - run:
+          name: Lint
+          command: yarn lint
+      - run:
+          name: Release
+          command: yarn release
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - all:
+          filters:
+            branches:
+              ignore:
+                - master
+  master:
+    jobs:
+      - master:
+          filters:
+            branches:
+              only: master
