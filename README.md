@@ -3,10 +3,10 @@
 
 ## Usage
 
-Add `tslint-config-common`, `tslint`, `typescript`, and `prettier` as development dependencies:
+Install dependencies
 
 ```bash
-yarn add --dev tslint-config-common tslint typescript prettier
+yarn add --dev tslint-config-common tslint typescript prettier pretty-quick husky
 ```
 
 Create TSLint configuration file (`tslint.json`) that extends `tslint-config-common`:
@@ -31,7 +31,9 @@ Add the following script command to your `package.json`:
     "tslint": "tslint 'src/**/*.{js,jsx,ts,tsx}' -t verbose",
     "lint": "yarn tslint",
     "prettier": "prettier --ignore-path .gitignore --write 'src/**/*.{ts,js}'",
-    "prettier:diff": "prettier -l 'src/**/*.{ts,js}'"
+    "prettier:diff": "prettier -l 'src/**/*.{ts,js}'",
+    "precommit": "pretty-quick --staged && yarn lint",
+    "prepush": "yarn prettier:diff && yarn test"
   }
 }
 ```
