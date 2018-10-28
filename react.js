@@ -9,7 +9,7 @@ const commonRules = {
   'jsx-wrap-multiline': false,
   'jsx-boolean-value': false,
   'jsx-no-lambda': false,
-  "jsx-boolean-value": false,
+  'jsx-boolean-value': false,
 };
 
 module.exports = {
