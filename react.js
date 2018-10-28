@@ -10,7 +10,6 @@ const commonRules = {
   'jsx-boolean-value': false,
   'jsx-no-lambda': false,
   "jsx-boolean-value": false,
-  "jsx-no-lambda": false,
 };
 
 module.exports = {
