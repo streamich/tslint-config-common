@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/streamich/tslint-config-common/compare/v1.1.0...v1.1.1) (2018-10-28)
+
+
+### Bug Fixes
+
+* 🐛 move disabled rules to the end ([9697fba](https://github.com/streamich/tslint-config-common/commit/9697fba))
+
 # [1.1.0](https://github.com/streamich/tslint-config-common/compare/v1.0.0...v1.1.0) (2018-10-28)
 
 
