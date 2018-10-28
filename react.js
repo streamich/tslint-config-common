@@ -7,6 +7,9 @@ const commonRules = {
   'jsx-no-string-ref': true,
   'jsx-self-close': true,
   'jsx-wrap-multiline': false,
+  'jsx-boolean-value': false,
+  'jsx-no-lambda': false,
+  "jsx-boolean-value": false,
 };
 
 module.exports = {
