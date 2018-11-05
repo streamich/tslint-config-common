@@ -11,7 +11,7 @@ module.exports = {
     ban: [true, 'eval', '$', ['describe', 'only'], ['it', 'only']],
     'ban-comma-operator': true,
     encoding: true,
-    'newline-before-return': true,
+    'newline-before-return': false,
     'no-duplicate-imports': true,
     'no-duplicate-switch-case': true,
     'no-duplicate-variable': true,
