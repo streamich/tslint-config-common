@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/streamich/tslint-config-common/compare/v1.2.0...v1.3.0) (2018-11-25)
+
+
+### Features
+
+* disable couple of dynamic deletes and null assertion ([c69cd2e](https://github.com/streamich/tslint-config-common/commit/c69cd2e))
+
 # [1.2.0](https://github.com/streamich/tslint-config-common/compare/v1.1.1...v1.2.0) (2018-11-05)
 
 
