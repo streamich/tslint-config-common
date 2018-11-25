@@ -49,7 +49,7 @@ module.exports = {
     'interface-name': false,
 
     'no-any': false,
-    'no-inferrable-types': true,
+    'no-inferrable-types': false,
     'no-non-null-assertion': false,
 
     // Not sure if we should disable this one.
