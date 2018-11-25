@@ -24,7 +24,7 @@ module.exports = {
     'no-magic-numbers': false,
     'no-parameter-reassignment': true,
     'no-require-imports': false,
-    'no-return-await': true,
+    'no-return-await': false,
     'no-sparse-arrays': true,
     'no-switch-case-fall-through': true,
     'no-this-assignment': [true, {'allow-destructuring': true}],
