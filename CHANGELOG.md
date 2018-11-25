@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/streamich/tslint-config-common/compare/v1.3.0...v1.4.0) (2018-11-25)
+
+
+### Features
+
+* don't ask user to await before return ([a46b345](https://github.com/streamich/tslint-config-common/commit/a46b345))
+
 # [1.3.0](https://github.com/streamich/tslint-config-common/compare/v1.2.0...v1.3.0) (2018-11-25)
 
 
