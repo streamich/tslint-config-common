@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/streamich/tslint-config-common/compare/v1.4.0...v1.5.0) (2018-11-25)
+
+
+### Features
+
+* remove no-inferrable-types ([ac9aac7](https://github.com/streamich/tslint-config-common/commit/ac9aac7))
+
 # [1.4.0](https://github.com/streamich/tslint-config-common/compare/v1.3.0...v1.4.0) (2018-11-25)
 
 
