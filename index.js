@@ -15,7 +15,7 @@ module.exports = {
     'no-duplicate-imports': true,
     'no-duplicate-switch-case': true,
     'no-duplicate-variable': true,
-    'no-dynamic-delete': true,
+    'no-dynamic-delete': false,
     'no-empty': false,
     'no-implicit-dependencies': [true, 'dev'],
     'no-import-side-effect': [true, {'ignore-module': '\\.css$'}],
@@ -50,7 +50,7 @@ module.exports = {
 
     'no-any': false,
     'no-inferrable-types': true,
-    'no-non-null-assertion': true,
+    'no-non-null-assertion': false,
 
     // Not sure if we should disable this one.
     // But I sometimes shadow variables and Forbes said he does, too.
