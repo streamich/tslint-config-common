@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/streamich/tslint-config-common/compare/v1.5.0...v1.6.0) (2018-11-29)
+
+
+### Features
+
+* 🎸 add commitlint ([9be4dd5](https://github.com/streamich/tslint-config-common/commit/9be4dd5))
+* 🎸 disable few rules ([21dbc0c](https://github.com/streamich/tslint-config-common/commit/21dbc0c))
+
 # [1.5.0](https://github.com/streamich/tslint-config-common/compare/v1.4.0...v1.5.0) (2018-11-25)
 
 
