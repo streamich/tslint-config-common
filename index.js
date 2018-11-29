@@ -77,6 +77,6 @@ module.exports = {
     'restrict-plus-operands': false,
     'no-misused-new': false,
     'ordered-imports': false,
-    'forin': false,
+    forin: false,
   },
 };

@@ -21,8 +21,7 @@
     "check-prettier-conflicts": "tslint-config-prettier-check './index.js' && tslint-config-prettier-check './react.js'",
     "precommit": "yarn check-prettier-conflicts",
     "release": "semantic-release",
-    "test": "echo 'This project has no tests' && exit 0",
-    "commitmsg": "commitlint -E GIT_PARAMS"
+    "test": "echo 'This project has no tests' && exit 0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.0",
