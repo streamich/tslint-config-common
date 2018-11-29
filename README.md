@@ -10,7 +10,7 @@
 Install dependencies
 
 ```bash
-yarn add --dev tslint-config-common tslint typescript prettier pretty-quick husky
+yarn add --dev tslint-config-common tslint typescript prettier pretty-quick husky @commitlint/cli @commitlint/config-conventional
 ```
 
 Run below command to add necessary scripts to `package.json`.
