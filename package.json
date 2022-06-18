@@ -39,8 +39,8 @@
     "typescript": "*"
   },
   "dependencies": {
-    "tslint-config-prettier": "^1.14.0",
-    "tslint-react": "^3.6.0"
+    "tslint-config-prettier": "*",
+    "tslint-react": "*"
   },
   "release": {
     "verifyConditions": [
